@@ -24,7 +24,6 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #1b1818;
-  /* font-family: 'Fira Sans', sans-serif; */
 }
 
 .header {
@@ -69,4 +68,40 @@ body {
 .top__heading {
   display: flex;
   padding: 50px 0 30px;
+}
+
+.top__content {
+  text-align: center;
+  padding-top: 90px;
+  width: 50%;
+}
+
+.top_title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  margin: 0 auto 20px;
+  max-width: 450px;
+}
+
+.top__text {
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 auto 60px;
+  max-width: 470px;
+}
+.application-btn {
+  text-transform: uppercase;
+  color: #fefefe;
+  background-color: #c5ac2d;
+  padding: 16px 19px 15px;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+}
+
+.application-btn:hover {
+  color: #c5ac2d;
+  background: #fefefe;
+  border: 1px solid #c5ac2d;
 }
