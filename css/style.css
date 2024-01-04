@@ -102,6 +102,7 @@ body {
   padding: 16px 19px 15px;
   transition: all 0.5s;
   border: 1px solid transparent;
+  display: inline-block;
 }
 
 .application-btn:hover {
@@ -415,14 +416,14 @@ body {
 }
 
 .feedback__form {
-  width: 416px;
+  width: 415px;
   margin: 0 auto;
 }
 
 .feedback__title {
   font-family: "Fira Sans", sans-serif;
-  font-size: 24px;
   font-weight: 500;
+  font-size: 24px;
   line-height: 29px;
   margin-bottom: 5px;
 }
@@ -436,7 +437,7 @@ body {
   padding: 20px 0;
   width: 100%;
   border: none;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .feedback__input::placeholder {
@@ -450,11 +451,44 @@ body {
 .feedback__btn {
   text-transform: uppercase;
   color: #fefefe;
-  border: none;
+  border: 1px solid transparent;
   display: inline-block;
   padding: 16px 36px 15px;
   background-color: #c5ac2d;
   margin-top: 50px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.feedback__btn:hover {
+  background-color: #fefefe;
+  color: #c5ac2d;
+  border: 1px solid #c5ac2d;
+}
+
+.footer {
+  padding: 100px 0 24px;
+  background-color: #332208;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.footer__social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__social-link {
+  margin: 0 15px;
 }
